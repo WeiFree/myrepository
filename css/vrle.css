@@ -1,0 +1,396 @@
+body{
+	background-color: #1b2838;;
+}
+ .header{
+ 	  width: 100%;
+    height: 96px;
+    background: url(../img/vrle/topnavbg.png) repeat-x;
+ }
+.header-wrapper{
+	position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 1180px;
+    min-width: 941px;
+    max-width: 1180px;
+    text-align: left;
+    overflow: hidden;
+}
+.logo{
+	margin: 22px 0 0 5px;
+    display: block;
+    float: left;
+    width: 210px;
+    height: 55px;
+    text-indent: -9999px;
+    background: url(../img/vrle/logo.png) no-repeat 0 center;
+    overflow: hidden;
+}
+.jianjie{
+	color: #fff;
+    float: left;
+    margin-top: 63px;
+}
+.nav-box{
+	display: inline-block;
+    float: left;
+    height: 47px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 49px 0 0 35px;
+}
+.nav-box li{
+	float: left;
+	margin-left: 5px;
+}
+.nav-box li a{
+	border-radius: 3px;
+	display: inline-block;
+    text-align: center;
+    line-height: 47px;
+    height: 47px;
+    width: 103px;
+    color: #a2b4ce;
+    font-family: Verdana;
+}
+.nav-box li a:hover{
+	background: url(../img/vrle/topnav.png);
+}
+.xz{
+	background: url(../img/vrle/topnav.png);
+}
+.header-wrapper-right{
+	float: right;
+    display: block;
+    margin: 35px 0 0 10px;
+    height: 28px;
+}
+.number{
+	color: #FFFFFF;
+	font-size:18px ;
+}
+.denglu-box{
+	line-height:100% ;
+	color: #FFFFFF;
+	margin-top: 10px;
+	
+}
+.icon{
+	
+	width: 17px;
+	height: 15px;
+	background: url(../img/vrle/user.png) no-repeat;
+	display: inline-block;
+}
+.denglu-box a{
+	margin-left: 5px;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.main{
+	position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 1180px;
+    min-width: 941px;
+    max-width: 1180px;
+    text-align: left;
+    overflow: hidden;
+}
+.lunbo-box{
+	position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.slider-top{
+	width: 100%;
+	height: 350px;
+    overflow: hidden;
+}
+.lunbo{
+	position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.suqers{
+	position: absolute;
+    bottom: 3px;
+    display: inline-block;
+    z-index: 4;
+    width: 100%;
+    height: 50px;
+}
+.suqers span{
+	border-radius: 5px;
+	color: transparent;
+	width: 30px;
+	height: 5px;
+	margin: 0 5px 0 0;
+    display: inline-block;
+    zoom: 1;
+    background: #8d969e;
+    border-color: none;
+    cursor: pointer;
+}
+.lunbo ul li{
+	width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    opacity: 1;
+    display: block;
+    z-index: 2;
+}
+.left-item{
+	width: 850px;
+    height: 350px;
+    overflow: hidden;
+    float: left;
+    display: block;
+}
+.left-item img{
+	
+	width: 850px;
+    height: 350px;
+    min-height: auto;
+    overflow: hidden;
+    display: block;
+}
+.right-item{
+	width: 310px;
+    height: 350px;
+    overflow: hidden;
+    background: #396584;
+    float: right;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.shadow {
+    -moz-box-shadow: 0px 1px 3px #333333;
+    -webkit-box-shadow: 0px 1px 3px #333333;
+    box-shadow: 0px 1px 3px #333333;
+}
+.nodetop{
+	margin: 15px 20px;
+    display: block;
+    font-size: 36px;
+    font-family: 黑体;
+    line-height: 40px;
+    font-weight: bold;
+    max-height: 80px;
+    overflow: hidden;
+}
+.nodetime{
+	margin: 0 20px;
+    display: block;
+    line-height: 30px
+}
+.nodetime b{
+	font-weight: normal;
+    color: #5baddd;
+    margin: 0 10px 0 0;
+}
+.nodenr{
+	margin: 5px 20px;
+    display: block;
+    max-height: 200px;
+    overflow: hidden;
+}
+.right-item a{
+	color: #67c1f5;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    background: #173649;
+    width: 90px;
+    margin: 5px 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+.suqers span.cur{
+	background-color: #F2F2F2;
+}
+.hr{
+	height: 14px;
+    position: relative;
+    background: url(../img/vrle/newline.png) no-repeat top center;
+   
+}
+.list-right {
+    position: relative;
+    display: block;
+    float: right;
+    width: 300px;
+    overflow: hidden;
+}
+.list-right .h30{
+	height: 30px;
+	overflow: hidden;
+	clear: both;
+}
+.list-right h3{
+	display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    line-height: 1em;
+    color: #c7d5e0;
+    font-size: 18px;
+    font-weight: 300;
+    border-bottom: 1px solid #5baddd;
+}
+.list-right ul li{
+	cursor: pointer;
+	position: relative;
+    display: block;
+    padding: 10px 0 0 25px;
+    height: 25px;
+    vertical-align: top;
+}
+.list-right ul li .red{
+	background-color: red;
+}
+.list-right ul b{
+	position: absolute;
+    left: 0px;
+    top: 9px;
+    display: inline-block;
+    vertical-align: -3px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background: #1389d7;
+    font-style: normal;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.list-right ul a{
+	display: inline-block;
+    padding: 0;
+    color: #5baddd;
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.list-right ul span{
+	float: right;
+	color: #C1C1C1;
+}
+.list-left{
+	position: relative;
+    display: block;
+    margin: 0 340px 0 0;
+    overflow: hidden;
+}
+.list-left ul{
+	padding-top: 10px;
+	margin-top: 0;
+}
+.list-left ul li{
+	cursor: pointer;
+	display: block;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #5baddd;
+    overflow: hidden;
+}
+.list-left ul li h2{
+	color: #FFFFFF;
+	padding: 16px 0 14px 0;
+    font-size: 25px;
+    line-height: 27px;
+    font-family: "微软雅黑";
+}
+.list-left ul li span{
+	color: #fff;
+	
+}
+
+.list-left ul li p{
+	margin-top: 10px;
+	font-family: Verdana;
+	font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #c7d5e0;
+}
+.list-left ul li img{
+	
+	max-width: 500px;
+    min-width: auto;
+    min-height: auto;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+.feye{
+	margin-top: 30px;
+	
+	width: 850px;
+	height: 50px;
+}
+.feye span{
+	margin-left: 5px;
+	float: right;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+		width: 30px;
+		color: white;
+		background-color: #396584;
+}
+.footer{
+	margin: 30px 0 0 0;
+    padding: 0;
+    padding: 30px 0;
+    text-align: center;
+    line-height: 30px;
+    color: #4f94bc;
+    background: #000;
+    width: 100%;
+}
+.copyright{
+	padding-top: 5px;
+    line-height: 30px;
+    color: #888;
+    margin: 0 auto;
+    width: 1180px;
+}
+.center{
+	padding-top: 5px;
+    line-height: 30px;
+    color: #888;
+    margin: 0 auto;
+    width: 1180px;
+}
+.f-logo{
+	height: 23px;
+    width: 72px;
+    margin-left: -72px;
+    background: url(../img/vrle/footlogo.png) 0 0 no-repeat;
+    display: inline-block;
+}
+.foot-nav{
+	margin: 0 auto;
+    display: block;
+    letter-spacing: 3px;
+    color: #4f94bc;
+    line-height: 30px;
+}
+.foot-nav a{
+	margin-right: 10px;
+    color: #4f94bc;
+    letter-spacing: 1px;
+}
+

@@ -1,0 +1,240 @@
+
+.header{
+	position: fixed;
+    top: 0px;
+    padding-top: 12px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    z-index: 999;
+    background: url(../img/index/headerbg.png) repeat;
+}
+.header img {
+    display: block;
+    margin: 1px auto 0px;
+    position: relative;
+    z-index: -1;
+}
+.header a.logo {
+    margin: 12px 0px 0px 40px;
+}
+.header a {
+    color: #fff;
+}
+.nav{
+	position: relative;
+}
+.header .nav a:hover, .header .nav a.xz {
+    border-bottom: 3px solid #e68100;
+}
+.header .nav a {
+    float: left;
+    padding: 0px 17px;
+    line-height: 50px;
+    margin-left: 48px;
+}
+.chanpin{
+	margin-left: 53px;
+}
+.header a.rukou {
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+.section {
+    padding-bottom: 20px;
+    overflow: hidden;
+    background: url(../img/index/bgxj1.png) center center no-repeat;
+}
+.section1 .m1 {
+    position: absolute;
+    left: 74px;
+    top: 0px;
+}
+.section1 .m2 {
+    position: absolute;
+    left: 400px;
+    top: 106px;
+}
+.section2 .m1 {
+	
+    position: absolute;
+    left: 74px;
+    top: 0px;
+}
+.section2 .m2 {
+	
+    position: absolute;
+    left: 400px;
+    top: 106px;
+}
+.section3 .m1 {
+
+    position: absolute;
+    left: 74px;
+    top: 0px;
+}
+.section3 .m2 {
+	
+    position: absolute;
+    left: 400px;
+    top: 106px;
+}
+.section4 .m1 {
+	
+    position: absolute;
+    left: 74px;
+    top: 0px;
+}
+.section4 .m2 {
+	
+    position: absolute;
+    left: 400px;
+    top: 106px;
+}
+.m3{
+	position: absolute;
+    left: 366px;
+    top: 280px;
+}
+.m4{
+	position: absolute;
+    right: 344px;
+    top: 96px;
+}
+.m5{
+	position: absolute;
+    left: 360px;
+    top: 301px;
+}
+.m6{
+	position: absolute;
+    right: 334px;
+    top: 117px;
+}
+.box{
+	color: white;
+	height: 455px;
+}
+.section1.active .m1, .section1.active .m2, .section2.active .m1, .section2.active .m2, .section3.active .m1, .section3.active .m2, .section4.active .m1, .section4.active .m2 {
+    opacity: 1;
+    -webkit-animation: fadeIn 1s ease 1s both;
+    -moz-animation: fadeIn 1s ease 1s both;
+    animation:fadeIn  1s ease 1s both;
+}
+.section1.active .m3, .section1.active .m4, .section2.active .m3, .section2.active .m4, .section3.active .m3, .section3.active .m4, .section4.active .m3, .section4.active .m4 {
+	opacity: 1;
+    -webkit-animation: fadeIn 1.5s ease 1.5s both;
+    -moz-animation: fadeIn 1.5s ease 1.5s both;
+    animation:fadeIn  1.5s ease 1.5s both;
+}
+.section1.active .m6, .section2.active .m6, .section3.active .m6, .section4.active .m6,.section1.active .wenzi2,.section2.active .wenzi2,.section3.active .wenzi2,.section4.active .wenzi2{
+	-webkit-animation: fadeInLeft 1.8s ease 1.7s both;
+    -moz-animation: fadeInLeft 1.8s ease 1.7s both;
+    animation: fadeInLeft 1.8s ease 1.7s both
+}
+.section1.active .m5, .section2.active .m5, .section3.active .m5, .section4.active .m5,.section1.active .wenzi1,.section2.active .wenzi1,.section3.active .wenzi1,.section4.active .wenzi1{
+	-webkit-animation: fadeInLeft 1.8s ease 1.7s both;
+    -moz-animation: fadeInLeft 1.8s ease 1.7s both;
+    animation: fadeInLeft 1.8s ease 1.7s both
+}
+dt{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+dd{
+	color: grey;
+}
+.wenzi1{
+    width: 182px;
+    position: absolute;
+    left: 250px;
+    top: 320px;
+}
+.wenzi2{
+	width: 200px;
+    position: absolute;
+    right: 120px;
+    top: 123px;
+}
+.ckgd{
+	position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: -120px;
+    z-index: 9;
+}
+.section2 .m4 {
+    position: absolute;
+    right: 407px;
+    top: 100px;
+}
+
+.section2 .m6 {
+    position: absolute;
+    right: 398px;
+    top: 174px;
+}
+.section2 .wenzi2{
+	width: 177px;
+    position: absolute;
+    right: 215px;
+    top: 213px;
+}
+.section3 .m3{
+	top: 363px;
+}
+.section3 .m4{
+	top: 124px;
+}
+.section3 .m5{
+	top: 377px;
+}
+.section3 .m6{
+	top: 166px;
+}
+.section3 .wenzi1{
+	top: 391px;
+}
+.section3 .wenzi2{
+	top: 124px;
+}
+.section4 .m3{
+	top: 208px;
+	left: 373px;
+}
+.section4 .m4{
+	right: 224px;
+	top: 146px;
+}
+.section4 .m5{
+	left: 379px;
+	top: 226px;
+}
+.section4 .m6{
+	right: 215px;
+	top: 209px;
+}
+.section4 .wenzi1{
+	
+	top: 246px;
+}
+.section4 .wenzi2{
+	right: 53px;
+	top: 230px;
+}
+.footer {
+    position: fixed;
+    left: 50%;
+    margin-left: -520px;
+    width: 1200px;
+    bottom: 0px;
+    z-index: 999;
+    line-height: 50px;
+    color: #fff;
+}
+

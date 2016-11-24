@@ -1,0 +1,79 @@
+
+.header{
+	position: fixed;
+    top: 0px;
+    padding-top: 12px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    background: url(../img/index/headerbg.png) repeat;
+}
+.header img {
+    display: block;
+    margin: 1px auto 0px;
+    position: relative;
+    z-index: -1;
+}
+.header a.logo {
+    margin: 12px 0px 0px 40px;
+}
+.header a {
+    color: #fff;
+}
+.nav{
+	position: relative;
+}
+.header .nav a:hover, .header .nav a.xz {
+    border-bottom: 3px solid #e68100;
+}
+.header .nav a {
+    float: left;
+    padding: 0px 17px;
+    line-height: 50px;
+    margin-left: 48px;
+}
+.chanpin{
+	margin-left: 53px;
+}
+.header a.rukou {
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+.box{
+	height: 100%;
+	background: url(../img/guyuwomen/bg.jpg) center center;
+	
+}
+.box dl{
+	margin-left: 300px;
+}
+.box dt{
+	color: white;
+	font: 25px "微软雅黑";
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.box dd{
+	font: 14px "微软雅黑";
+	color: grey;
+	width: 600px;
+}
+.box dl{
+	-webkit-animation: lightSpeedIn 1.8s ease 0.5s both;
+    -moz-animation: lightSpeedIn 1.8s ease 0.5 both;
+    animation: lightSpeedIn 1.8s ease 0.5s both;
+}
+.footer {
+    position: fixed;
+    left: 50%;
+    margin-left: -520px;
+    width: 1200px;
+    bottom: 0px;
+    z-index: 999;
+    line-height: 50px;
+    color: #fff;
+}

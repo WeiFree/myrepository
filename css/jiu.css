@@ -1,0 +1,421 @@
+.top{
+	    height: 1076px;
+    background:url(../img/jiu/lejian.png) no-repeat center top;
+    width: 100%;
+}
+.header{
+	width: 100%;
+    height: 80px;
+    padding-bottom: 5px;
+}
+.head{
+	width: 74%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.head a{
+	float: left;
+	margin-top: 23px;
+	margin-left: 23px;
+}
+.nav-box b{
+	float: right;
+    font-size: 15px;
+    color: #ef8200;
+    line-height: 80px;
+}
+.nav li{
+	float: left;
+    width: 183px;
+    height: 80px;
+    margin-left: -50px;
+}
+.nav li a{
+	color:white;
+	width: 150px;
+	font: 15px "微软雅黑";
+	text-align: center;
+	display: block;
+	line-height: 30px;
+	font-weight: bold;
+}
+.nav{
+	float: left;
+	margin-left: -50px;
+}
+.nav li:hover{
+	background: url(../img/jiu/libghov.png);
+}
+#xz{
+	background: url(../img/jiu/libg.png);
+}
+.one{
+	width: 100%;
+    height: 610px;
+    padding-top: 230px;
+    background: url(../img/jiu/jiesao.png) center top no-repeat;
+    overflow: hidden;
+}
+.cp{
+	margin: 58px auto 130px;
+    width: 68%;
+    min-width: 670px;
+    min-height: 670px
+}
+.biaoti{
+	display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: #275667;
+    text-align: center;
+    line-height: 130px;
+}
+.cpul{
+	text-align: center;
+}
+.cpul li{
+	display: inline-block;
+    line-height: 38px;
+    font-size: 18px;
+    padding-left: 23px;
+    padding-right: 20px;
+    background: url(../img/jiu/bar.png) left center no-repeat;
+}
+.cpul li a{
+	font-size: 18px;
+    color: #275667;
+}
+#nobg{
+	background: none;
+}
+
+.jiejian{
+	display: block;
+	text-align: center;
+	font-size: 18px;
+    color: #275667;
+}
+.cptu{
+	width: 100%;
+}
+.cptu a{
+	position: relative;
+    margin-top: 26px;
+    overflow: hidden;
+}
+.cptu a img{
+	width: 100%;
+}
+.cptuhov{
+	transform: scale(1.2, 1.2); 
+	transition: transform 1s;
+}
+.wenzi{
+	background: url(../img/jiu/headerbg.png) repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    color: #fff;
+    font: 18px "微软雅黑";
+    font-weight: bold;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+.wenzi span{
+	display: block;
+	padding-top:32% ;
+}
+.jiqi{
+	position: relative;
+    height: 646px;
+    z-index: -1;
+}
+.bgs{
+	width: 100%;
+    height: 646px;
+    position: absolute;
+    top: 0px;
+    background: url(../img/jiu/jiqiren.jpg) 0px -86.1px no-repeat fixed;
+}
+.wenzi2{
+	width: 933px;
+    height: 123px;
+    border: 3px solid #fff;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 123px;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 22px;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    margin-left: -467px;
+    position: absolute;
+    z-index: 999999999999;
+    overflow: hidden;
+    display: none;
+}
+.wenzi2 span{
+	display: none;
+	margin-right: -20px;
+}
+.baiye{
+	width: 100%;
+    background: url(../img/jiu/baiye.jpg) center -102px no-repeat #f8f8f8;
+    padding-top: 110px;
+    overflow: hidden;
+}
+.bybox{
+	margin-top: 100px;
+	width: 100%;
+    position: relative;
+     height: 610px;
+}
+.pic1{
+	width: 12.3%;
+    margin-left: 0.2%;
+    float: left;
+    height: 610px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.guyu{
+	overflow: hidden;
+	width: 100%;
+    background-color: #f5f5f5;
+}
+.wrapper{
+	
+	width: 92%;
+	margin: 0 auto;
+
+}
+.pic1 img{
+	position: absolute;
+	top: 0;
+}
+.bywenzi{
+	width: 50%;
+	display: none;
+    float: right;
+    height: 100%;
+    background: #000;
+    position: relative;
+    z-index: 99999;
+}
+.bywenzi img{
+	margin-top: 100px;
+	position: relative;
+	margin-bottom: 100px;
+}
+.wznr{
+	width: 85%;
+    color: #d1cfcf;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+.bywenzi a{
+	position: absolute;
+    left: 0%;
+    top: 95%;
+    font-size: 14px;
+    color: #ef8200;
+    text-align: center;
+    width: 100%;
+}
+.left{
+	margin-top: 200px;
+	width: 56%;
+    float: left;
+    padding-bottom: 10%;
+}
+.left h2{
+	font-size: 41px;
+    color: #275667;
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+}
+.left h3{
+	width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+.left a{
+	font-size: 26px;
+    color: #ef8200;
+    border-bottom: 2px solid #f1ab58;
+    display: inline-block;
+}
+.left span{
+	font-size: 20px;
+    color: #275667;
+    width: 75%;
+    line-height: 40px;
+    margin-top: 80px;
+}
+.right{
+	margin-top: 200px;
+	width: 37.5%;
+    float: right;
+    padding: 8% 0px;
+}
+.right img{
+	width: 100%;
+}
+.zp{
+	width: 100%;
+    padding: 10px 0 20px;
+    background: #f5f5f5 url(../img/jiu/pic2.jpg) center top no-repeat
+}
+.zpbox{
+	width: 76.6%;
+	margin: 0 auto;
+}
+.zpleft{
+	width: 23.5%;
+    min-height: 848px;
+    background: url(../img/jiu/baiye.jpg) no-repeat -10px -50px;
+    float: left;
+}
+.zpright{
+    width: 76%;
+    min-height: 848px;
+    background-color: #fff;
+    float: right;
+    position: relative;	
+}
+.zp h2{
+	font-size: 20px;
+    color: #87949e;
+    width: 92%;
+    height: 84px;
+    line-height: 84px;
+    padding-left: 8%;
+    border-bottom: 1px solid #e5e6e8;
+}
+.zhiwei{
+	width: 91%;
+    line-height: 48px;
+    padding: 30px 0 0 9%;
+}
+.zhiwei li{
+	padding-left: 15px;
+	line-height: 55px;
+}
+.zhiwei a{
+    font-size: 16px;
+    color: #87949e;
+    width: 100%;
+    display: block;	
+}
+.xz a{
+	color: #ef8200;
+}
+.nr1{
+	display: none;
+}
+.nr1 h2{
+	font-size: 18px;
+	font-weight: bold;
+    color: #87949e;
+    width: 95%;
+    height: 84px;
+    line-height: 84px;
+    padding-left: 5%;
+    border-bottom: 1px solid #e5e6e8;
+}
+.nr1 ul{
+	font-size: 14px;
+    color: #87949e;
+    width: 90%;
+    line-height: 28px;
+    padding: 40px 5% 0;
+}
+.nr1 ul img{
+	width:100%;
+	margin-left: -35px;
+	margin-top: -65px;
+}
+.nr1 ol{
+	font-size: 16px;
+    color: #a0a0a0;
+    width: 100%;
+    line-height: 38px;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #eeeff1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+ol span{
+ 	font-size: 14px;
+    display: block;
+}
+.block{
+	display: block;
+}
+.footer{
+	width: 100%;
+    background-color: #000;
+}
+.footbox{
+	width: 76%;
+	min-width: 1000px;
+}
+.f-top{
+	width: 100%;
+}
+.f-left{
+	width: 70%;
+	float: left;
+}
+.f-left span{
+	font-weight: bold;
+	font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0;
+    display: block;
+}
+.f-left p{
+	font-size: 12px;
+    color: #878787;
+}
+.f-right{
+	width: 30%;
+	float: right;
+}
+.f-right span{
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0;
+    display: block;
+}
+.f-right ul{
+	width: 100%;
+}
+.f-right ul li{
+	margin-right: 5px;
+	float: right;
+}
+.f-bttom{
+	font-size: 12px;
+    color: #a2a2a2;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 2px;
+    background: url(../img/jiu/bline.png) center top no-repeat;
+}
+
+

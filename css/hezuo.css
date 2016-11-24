@@ -1,0 +1,176 @@
+body{
+	    background-color: #1b1b22;
+}
+.header{
+	position: fixed;
+    top: 0px;
+    padding-top: 12px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    z-index: 999;
+    background: url(../img/index/headerbg.png) repeat;
+}
+.header img {
+    display: block;
+    margin: 1px auto 0px;
+    position: relative;
+    z-index: -1;
+}
+.header a.logo {
+    margin: 12px 0px 0px 40px;
+}
+.header a {
+    color: #fff;
+}
+.nav{
+	position: relative;
+}
+.header .nav a:hover, .header .nav a.xz {
+    border-bottom: 3px solid #e68100;
+}
+.header .nav a {
+    float: left;
+    padding: 0px 17px;
+    line-height: 50px;
+    margin-left: 48px;
+}
+.chanpin{
+	margin-left: 53px;
+}
+.header a.rukou {
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+dl{
+	margin-left: 100px;
+}
+.w dt{
+	font: 25px "微软雅黑";
+	height: 50px;
+	color: white;
+	line-height: 50px;
+	border-bottom: 1px dashed grey;
+}
+.w dd{
+	width: 500px;
+	font: 15px "微软雅黑";
+	line-height: 2em;
+	color: grey;
+
+	
+}
+.four{
+	margin-top: 15px;
+	background: url(../img/hezuo/bg2.png) no-repeat;
+	height: 150px;
+}
+.four ul{
+	padding-left: 200px;
+	width: 1025px;
+	margin: 0 auto;
+    margin-top: 10px;
+}
+.four ul li{
+	margin-top: 30px;
+	cursor: pointer;
+	display: inline-block;
+	width: 196px;
+}
+.four ul li p{
+	width: 54px;
+    height: 50px;
+    padding: 15px 13px;
+    background: url(../img/hezuo/bg3.png) no-repeat;
+}
+.four ul li span{
+	font-size: 12px;
+    color: #9696a4;
+    width: 196px;
+    line-height: 100%;
+    text-align: center;
+    padding-left: 5px;
+    margin-top: 15px;
+}
+.four ul li .sps{
+	padding-left: 0;
+}
+ .four ul li .hov{
+ 	border-radius: 100%;
+	background-color: #18181F;
+}
+.table{
+	 width: 660px;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 0 30px 10px;
+    background-color: #23232c;
+    border-radius: 10px;
+}
+h3{
+	color:gray;
+}
+.table li{
+	margin-top: 20px;
+}
+.wbk1 {
+    font-size: 14px;
+    color: #c1c1c1;
+    width: 640px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    background-color: #18181f;
+    border: 0px;
+    border-radius: 5px;
+}
+.wbk2 {
+    font-size: 14px;
+    color: #c1c1c1;
+    width: 640px;
+    height: 70px;
+    line-height: 30px;
+    padding: 0 10px;
+    background-color: #18181f;
+    border: 0px;
+    border-radius: 5px;
+}
+.btnbox{
+	width: 660px;
+}
+.btnbox p{
+	font-size: 12px;
+    color: #c1c1c1;
+    width: 720px;
+}
+.btn{
+	font-size: 14px;
+    color: #000;
+    width: 110px;
+    height: 35px;
+    line-height: 100%;
+    text-align: center;
+    background-color: #e68100;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section.active .table{
+	-webkit-animation: fadeInLeft 1.8s ease .5s both;
+    -moz-animation: fadeInLeft 1.8s ease .5s both;
+    animation: fadeInLeft 1.8s ease .5s both
+}
+.footer {
+    position: fixed;
+    left: 50%;
+    margin-left: -520px;
+    width: 1200px;
+    bottom: 0px;
+    z-index: 999;
+    line-height: 50px;
+    color: #fff;
+}

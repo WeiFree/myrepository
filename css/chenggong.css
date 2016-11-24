@@ -1,0 +1,228 @@
+
+.header{
+	width: 100%;
+    height: 80px;
+    padding-bottom: 5px;
+    background-color: #000000;
+}
+.head{
+	width: 74%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.head a{
+	float: left;
+	margin-top: 23px;
+	margin-left: 23px;
+}
+.nav-box b{
+	float: right;
+    font-size: 15px;
+    color: #ef8200;
+    line-height: 80px;
+}
+.nav li{
+	float: left;
+    width: 183px;
+    height: 80px;
+    margin-left: -50px;
+}
+.nav li a{
+	color:white;
+	width: 150px;
+	font: 15px "微软雅黑";
+	text-align: center;
+	display: block;
+	line-height: 30px;
+	font-weight: bold;
+}
+.nav{
+	float: left;
+	margin-left: -50px;
+}
+.nav li:hover{
+	background: url(../img/jiu/libghov.png);
+}
+#xz{
+	background: url(../img/jiu/libg.png);
+}
+.banner{
+	width: 100%;
+	background: url(../img/chenggong/top.jpg);
+	height: 654px;
+}
+.bigpic{
+	width: 100%;
+	overflow: hidden;
+}
+.bicpicbox{
+	width: 68%;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.bicpicbox h2{
+	font-family: "微软雅黑";
+	margin: 100px auto;
+	font-size: 24px;
+    font-weight: bold;
+    color: #ef8200;
+    width: 100%;
+    text-align: center;
+    background: url(../img/chenggong/Z.jpg) center no-repeat;
+}
+.bicpicbox ul{
+	width: 100%;
+}
+
+.bicpicbox ul li{
+	width: 31%;
+    margin-left: 3.5%;
+    float: left;
+}
+.bicpicbox ul li p{
+	font-family: "微软雅黑";
+	font-size: 24px;
+    font-weight: bold;
+    color: #201c29;
+    width: 100%;
+    height: 128px;
+    line-height: 128px;
+    text-align: center;
+    background-color: #f8f8f8;
+    display: block;
+}
+.bicpicbox ul li img{
+	width: 100%;
+	height: 100%;
+}
+
+.guyu{
+	overflow: hidden;
+	width: 100%;
+    background-color: #f5f5f5;
+}
+.wrapper{
+	
+	width: 92%;
+	margin: 0 auto;
+
+}
+.left{
+	margin-top: 200px;
+	width: 56%;
+    float: left;
+    padding-bottom: 10%;
+}
+.left h2{
+	font-size: 41px;
+    color: #275667;
+    width: 100%;
+    text-align: center;
+    padding-top: 20%;
+}
+.left a{
+	font-size: 26px;
+    color: #ef8200;
+    border-bottom: 2px solid #f1ab58;
+    display: inline-block;
+}
+.left span{
+	font-size: 20px;
+    color: #275667;
+    width: 75%;
+    line-height: 40px;
+    margin-top: 80px;
+}
+.right{
+	margin-top: 200px;
+	width: 37.5%;
+    float: right;
+    padding: 8% 0px;
+}
+.right img{
+	width: 100%;
+}
+.gywm{
+	
+	width: 90%;
+	margin: 0 auto;
+}
+.gywm h2{
+	margin: 100px auto;
+	width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #ef8200;
+    font-weight: bold;
+}
+.gywmul{
+	display: none;
+	width: 100%;
+	padding-bottom: 100px;
+	
+}
+.gywmul li{
+	display: none;
+	cursor: pointer;
+	width: 16%;
+    margin: 45px 0.33% 0;
+    float: left;
+}
+.gywmul li img{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	width: 100%;
+    background-color: #000;
+}
+.footbox{
+	width: 76%;
+	min-width: 1000px;
+}
+.f-top{
+	width: 100%;
+}
+.f-left{
+	width: 70%;
+	float: left;
+}
+.f-left span{
+	font-weight: bold;
+	font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0;
+    display: block;
+}
+.f-left p{
+	font-size: 12px;
+    color: #878787;
+}
+.f-right{
+	width: 30%;
+	float: right;
+}
+.f-right span{
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+    color: #ffffff;
+    margin: 10px 0;
+    display: block;
+}
+.f-right ul{
+	width: 100%;
+}
+.f-right ul li{
+	margin-right: 5px;
+	float: right;
+}
+.f-bttom{
+	font-size: 12px;
+    color: #a2a2a2;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 2px;
+    background: url(../img/jiu/bline.png) center top no-repeat;
+}
